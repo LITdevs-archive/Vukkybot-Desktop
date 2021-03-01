@@ -1,3 +1,6 @@
+# Compiled electron app
+out/
+
 # Logs
 logs
 *.log

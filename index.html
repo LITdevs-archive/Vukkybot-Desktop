@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VukkyBot Desktop</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script src="renderer.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: #36393F;">
+    <div>
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link" onclick="showTab('home')" activetab>Home</a></li>
+            <li class="nav-item"><a class="nav-link" onclick="showTab('config')">Config</a></li>
+            <li class="nav-item"><a class="nav-link" onclick="showTab('logs')">Logs</a></li>
+            <li class="nav-item"><a class="nav-link" onclick="showTab('about')">About</a></li>
+        </ul>
+    </div>
+    <div id="home" style="position: absolute;left: 50%;top: 45%;transform: translate(-50%, -50%);">
+        <a><img src="resources/start.png" id="mainButton" onclick="startButton()"></a>
+        <img src="resources/start.png" id="pathButton" style="display:none">
+    </div>
+</body>
+</html>

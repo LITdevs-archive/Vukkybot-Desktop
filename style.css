@@ -1,0 +1,21 @@
+html {
+    font-family: 'Abel', sans-serif;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+}
+.nav-item {
+    display: inline;
+    padding:15px
+}
+.nav-link {
+    font-size:x-large;
+    color: #44A5FF;
+    text-decoration: none;
+}
+.nav-link[activetab] {
+    text-decoration:underline;
+}
